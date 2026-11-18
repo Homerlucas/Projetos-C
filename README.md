@@ -1,5 +1,4 @@
 # Projetos-C
-Repositorio com projetos criados na linguagem C
 ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 ![GCC](https://img.shields.io/badge/Compilador-GCC-blue?style=for-the-badge)
 ### 📚 Conceitos de C Praticados
@@ -11,3 +10,18 @@ Repositorio com projetos criados na linguagem C
 - [ ] Vetores e Matrizes (Arrays)
 - [ ] Ponteiros e Alocação Dinâmica de Memória (`malloc`, `free`)
 - [ ] Estruturas (`struct`) e Manipulação de Arquivos (`FILE`)
+
+### ⚙️ Como Compilar e Executar
+
+Para compilar utilizando o **GCC** com boas práticas (exibindo todos os avisos):
+
+```bash
+# Compilar o arquivo
+gcc -Wall -Wextra calculadoraV2.c -o calculadora
+
+# Executar no Linux / macOS
+./calculadora
+
+# Executar no Windows (CMD ou PowerShell)
+calculadora.exe
+```
