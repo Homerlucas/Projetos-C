@@ -11,6 +11,16 @@
 - [ ] Ponteiros e Alocação Dinâmica de Memória (`malloc`, `free`)
 - [ ] Estruturas (`struct`) e Manipulação de Arquivos (`FILE`)
 
+### Exemplo de Estrutura Básica utilizada
+
+```c
+#include <stdio.h>
+
+int main() {
+    printf("Projetos em Linguagem C!\n");
+    return 0;
+}
+```
 ### ⚙️ Como Compilar e Executar
 
 Para compilar utilizando o **GCC** com boas práticas (exibindo todos os avisos):
